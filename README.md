@@ -17,7 +17,6 @@
             padding: 8px 20px 8px 20px;
             color: white;
             border:turquoise 1px;">php artisan make:migration create_produits_table  --create=produits</label>
-    
         <p>Pour éviter de rencontrer des erreurs, vous devez spécifier la longueur de chaîne par défaut avant d'exécuter votre migration.Ouvrez le fichier app / Providers / AppServiceProvider.php et ajoutez Schema :: defaultstringLength (191)</p>
 	    <p>puis tapez la commande</p>
             <label style="background-color: gray;
